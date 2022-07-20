@@ -102,6 +102,7 @@ header { width: 100%; height: 177px; position: fixed; top: 0; z-index: 1000; }
 
 
 
+/*-------------------------------------------------------------------slide--------------------------------------------------------*/
 #slide_wrap{ width: 100%; height: 659px;  position: relative; cursor: pointer; overflow: hidden; }
 #slide { width: 700%; height: 659px; position: absolute; left: 0; top: 0;  }
 #slide>li { width: 14.285%; height: 659px; float: left; }
@@ -126,6 +127,7 @@ header { width: 100%; height: 177px; position: fixed; top: 0; z-index: 1000; }
 
 
 
+/*-------------------------------------------------------------------new_event--------------------------------------------------------*/
 #new_event { width: 1100px; height: 240px; margin: auto; margin-top: 108px; }
 #new_event1 { width: 268px; height: 240px; float: left; margin-right: 10px; }
 #new_event1 button { width: 156px; height: 45px; border: 1px solid #c8bfb0; border-radius: 5px; color: #ab9b7f; margin-top: 130px; background-color: #fff; font-size: 11px; font-weight: 800; cursor: pointer;}
@@ -140,7 +142,7 @@ header { width: 100%; height: 177px; position: fixed; top: 0; z-index: 1000; }
 #new_event3 img { position: absolute; left: -20px; top: 10px; }
 
 
-
+/*-------------------------------------------------------------------product--------------------------------------------------------*/
 #product_list { width: 1100px; height: 520px; margin: auto; margin-top: 30px; }
 #product { overflow: hidden; }
 #product>li { width: 268px; height: 444px; float: left; margin-right: 9px; border: 1px solid #d1cccb; box-sizing: border-box; border-radius: 5px; position: relative; overflow: hidden; } 
@@ -175,13 +177,13 @@ header { width: 100%; height: 177px; position: fixed; top: 0; z-index: 1000; }
 #product_bt>li { width: 6px; height: 6px; display: inline-block; border-radius: 6px; background-color: #999; cursor: pointer; margin-right: 5px; }
 #product_bt li:nth-child(1) { width: 10px; height: 10px; border-radius: 10px; background-color: #2c1810; }
 
-
+/*-------------------------------------------------------------------banner--------------------------------------------------------*/
 #banner1 { width: 100%; height: 400px; background: url(images/img_banner_1_1.jpg) fixed; background-size: cover; position: relative; margin-top: 24px; }
 #banner1_1 { position: absolute; left: -1500px; right: 0; top: -50px; bottom: 0; margin: auto; opacity: 0; }
 #banner1_2 { position: absolute; left: 1500px; right: 0; top: 150px; bottom: 0; margin: auto; opacity: 0; }
 
 
-
+/*-------------------------------------------------------------------donuts_menu--------------------------------------------------------*/
 #donuts_menu { width: 1200px; height: 543px; margin: auto; margin-top: 75px; text-align: center; }
 #donuts_menu>h4 { font-weight: 600; color: #392113; font-size: 15px; margin-top: 25px; }
 #donuts_menu p {margin: auto;  font-size: 3px; font-weight: 400; color: #a19299; margin-top: 20px; }
@@ -194,7 +196,7 @@ header { width: 100%; height: 177px; position: fixed; top: 0; z-index: 1000; }
 #donuts_menu ul li>button { width: 99px; height: 31px; border: 1px solid #c8bfb0; border-radius:5px; color: #ab9b7f; font-size: 10px; font-weight: 500; margin-top: 25px; background-color: #fff; cursor: pointer; }
 #donuts_menu ul li:nth-child(3)>button { width: 119px; height: 31px; }
 
-
+/*-------------------------------------------------------------------banner2--------------------------------------------------------*/
 #banner2 { width: 100%; height: 400px; background: url(images/img_banner_1_2.jpg)center fixed; background-size: cover; position: relative; margin-top: 100px; }
 
 #banner2_box1 { width: 380px; height: 380px; background: url(images/bg_map.png); position: absolute; left: -550px; right: 0; top: -110px; bottom: 0; margin: auto; cursor: pointer; transform: rotateY(180deg); transition: 1s; opacity: 0; }
@@ -211,21 +213,21 @@ header { width: 100%; height: 177px; position: fixed; top: 0; z-index: 1000; }
 
 
 
-
-#sns { width: 100%; margin-top: 80px; text-align: center; }
-#sns h4 { margin-top: 24px; font-weight: 300; font-size: 15px; }
-#sns_icon li { width: 64px; height: 64px; border: 1px solid #d3ccc0; border-radius: 100px; display: inline-block; margin:22px 6px ; cursor: pointer; }
-#sns_icon li img { width: 40%; margin-top: 18px;}
-
-
-#sns_box { width: 4160px; overflow: hidden; margin-top: 16px; }
-#sns_box li { width: 260px; height: 230px; float: left;  }
-#sns_box li img { width: 100%; vertical-align: top; cursor: pointer;  }
+/*-------------------------------------------------------------------sns--------------------------------------------------------*/
+#sns { width: 100%; height: 497px; margin-top: 80px; text-align: center; position: relative; overflow: hidden; }
+#sns>h4 { margin-top: 24px; font-weight: 300; font-size: 15px; }
+#sns_icon>li { width: 64px; height: 64px; border: 1px solid #d3ccc0; border-radius: 100px; display: inline-block; margin:22px 6px ; cursor: pointer; }
+#sns_icon>li img { width: 40%; margin-top: 18px;}
 
 
+#sns_box { width: 4160px; overflow: hidden; margin-top: 16px; position: absolute; }
+#sns_box>li { width: 260px; height: 230px; float: left;  }
+#sns_box>li img { width: 100%; vertical-align: top; cursor: pointer;  }
 
 
-footer { width: 1200px; height: 300px;  margin:60px auto; }
+
+/*-------------------------------------------------------------------footer-------------------------------------------------------*/
+footer { width: 1200px; height: 300px;  margin:52px auto; }
 #footer_left { width: 320px; height: 300px;  float: left; }
 #footer_info { overflow: hidden; font-size: 10px; letter-spacing: -1px; color: #75675c; margin-top: 15px; }
 #footer_info li { width: 49%; height: 24px; line-height: 24px; float: left; margin: 0.5%; }

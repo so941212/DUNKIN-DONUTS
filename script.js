@@ -89,4 +89,10 @@ $(document).ready(function(){
             $('#banner2_box2').css({'transform':'rotateY(0deg)','opacity':'1'})
         }
     })
+
+    // sns move 
+    $('#sns_box').mousemove(function(e){
+        mouseX = e.pageX
+        $('#sns_box').css({'left': mouseX*-1.18})
+    })
 })
